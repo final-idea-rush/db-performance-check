@@ -4,6 +4,7 @@ import com.database.databaseperformance.entity.Shop;
 import jakarta.persistence.EntityManager;
 import org.hibernate.Session;
 import org.hibernate.stat.Statistics;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -14,7 +15,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
+@DisplayName("읽기 전용 테스트")
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 class ShopRepositoryTest {
@@ -81,5 +82,5 @@ class ShopRepositoryTest {
         double queryExecutionCount = stats.getQueryExecutionCount();
         System.out.println("Number of Queries Executed: " + queryExecutionCount);
     }
-    
+
 }
