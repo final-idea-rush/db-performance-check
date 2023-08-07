@@ -1,13 +1,13 @@
 # MySQL vs PostgreSQL
 <hr>
-<h3>
-OS 환경 : Window 10 Pro<br><br>
-RAM : 32GB<br><br>
-Mysql Version : 8<br><br>
-PostgreSQL Version : 15<br><br>
-Spring Version : 3.1.2<br><br>
-JDK Version : 17
-</h3>
+| 구분            | 버전       |
+|------------------|------------------|
+| OS 환경 | Window 10 Pro |
+| RAM | 32GB |
+| Mysql | 8 |
+| PostgreSQL | 15 |
+| Spring | 3.1.2 |
+| JDK | 17 |
 <hr>
 <h3>읽기와 쓰기 단계로 나뉘어서 테스트 코드 작성 및 속도 체크 하였습니다.<br><br>
 읽기는 약 2,073,677건의 데이터를 가지고 사용 하였습니다.<br><br>
