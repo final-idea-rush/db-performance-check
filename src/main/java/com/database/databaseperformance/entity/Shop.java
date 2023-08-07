@@ -9,6 +9,9 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @Entity
+//@Table(indexes = {
+//        @Index(columnList = "status")
+//})
 public class Shop extends Auditing {
 
     @Id
