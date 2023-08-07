@@ -1,5 +1,13 @@
 # MySQL vs PostgreSQL
 <hr>
+OS 환경 : Window 10 Pro
+RAM : 32GB
+<br>
+Mysql Version : 8
+PostgreSQL Version : 15
+Spring Version : 3.1.2
+JDK Version : 17
+<hr>
 <h3>읽기와 쓰기 단계로 나뉘어서 테스트 코드 작성 및 속도 체크 하였습니다.<br><br>
 읽기는 약 2,073,677건의 데이터를 가지고 사용 하였습니다.<br><br>
 또한, 기존의 데이터는 null 값이 많은 컬럼들의 데이터들을 삭제하였습니다. <br><br>
