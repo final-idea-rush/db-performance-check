@@ -28,6 +28,7 @@ class ShopRepositoryTest {
     private ShopRepository shopRepository;
 
     @Test
+    @DisplayName("전체 조회")
     public void testFindAll() {
         Session session = entityManager.unwrap(Session.class);
         session.getSessionFactory().getStatistics().setStatisticsEnabled(true);
@@ -46,6 +47,7 @@ class ShopRepositoryTest {
     }
 
     @Test
+    @DisplayName("단건 조회")
     void testFindOne() {
         String status= "폐업";
         Session session = entityManager.unwrap(Session.class);
@@ -65,6 +67,7 @@ class ShopRepositoryTest {
     }
 
     @Test
+    @DisplayName("like 조회")
     void testFindContainsOne() {
         String name = "술";
         Session session = entityManager.unwrap(Session.class);
