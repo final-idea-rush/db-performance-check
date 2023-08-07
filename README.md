@@ -1,11 +1,11 @@
 # MySQL vs PostgreSQL
 <hr>
 <h3>
-OS 환경 : Window 10 Pro<br>
-RAM : 32GB<br>
-Mysql Version : 8<br>
-PostgreSQL Version : 15<br>
-Spring Version : 3.1.2<br>
+OS 환경 : Window 10 Pro<br><br>
+RAM : 32GB<br><br>
+Mysql Version : 8<br><br>
+PostgreSQL Version : 15<br><br>
+Spring Version : 3.1.2<br><br>
 JDK Version : 17
 </h3>
 <hr>
